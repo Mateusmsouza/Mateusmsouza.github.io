@@ -1,0 +1,39 @@
+<<<<<<< HEAD
+h1{
+	text-align: center;
+	margin-top: 20px;
+	
+}
+
+div{
+	overflow: hidden; 
+	width: 100%;
+	height: 80px;
+	background-color: slateblue; 
+}
+
+=======
+>>>>>>> 533d0e7d965186bd57a74a20f517692fc6b5ddad
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+<<<<<<< HEAD
+table, tr, td{
+	width: 30%;
+	margin-top: 60px;
+    table-layout: auto;
+    border: 1px solid black;
+}
+
+.tr_selected{
+	background-color: red;
+=======
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+>>>>>>> 533d0e7d965186bd57a74a20f517692fc6b5ddad
+}
