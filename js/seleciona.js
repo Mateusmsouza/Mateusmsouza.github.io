@@ -6,7 +6,7 @@ tabela.addEventListener('click', function(event){
 			if(tag.classList==null){
 				void(0);
 			}else{
-				tag.classList.remove("tr_selected")
+				tag.classList.remove("tr_selected");
 			};	
 		};
 		
@@ -14,5 +14,3 @@ tabela.addEventListener('click', function(event){
 	event.target.parentNode.classList.add("tr_selected");
 	currently = event.target.parentNode;
 });
-
-console.log(currently);
