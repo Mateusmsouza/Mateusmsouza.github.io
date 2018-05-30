@@ -1,4 +1,6 @@
 tabela = document.querySelector("#tabela_to_do")
+
+//falta completar funcionalidade
 var currently 
 tabela.addEventListener('click', function(event){
 	tabela.childNodes.forEach(function(tag,i){ // primeiro tag depois index
@@ -6,7 +8,10 @@ tabela.addEventListener('click', function(event){
 			if(tag.classList==null){
 				void(0);
 			}else{
-				tag.classList.remove("tr_selected");
+				console.log(tag.children[0].textContent)
+				if (tag.children[0].textContent){
+					tag.classList.remove("tr_selected");
+				};
 			};	
 		};
 		

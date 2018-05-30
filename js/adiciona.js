@@ -1,22 +1,27 @@
 botao = document.querySelector("#adicionando_task2");
 
 botao.addEventListener('click',function(event){
-	console.log(botao)
+
 	event.preventDefault();
 
 
 	formulario = document.querySelector("#nova_tarefa");
 	tarefa = formulario.task.value;
 	data_max = formulario.data.value;
-	console.log("AAA");
+
 	adiciona_task(tarefa, data_max, "#tabela_to_do");
 });
 
 
 
 function adiciona_task(task, date_max, kind){
+
 	tabela = document.querySelector(kind);
-//	console.log("AAA")
+	if (validaTask(task, date_max, tabela)){
+		alert("Esta tarefa nesta data já está na tabela!");
+		return ;
+	}
+	console.log(validaTask(task, date_max, tabela))
 	new_tr = document.createElement('tr');
 	new_td1 = document.createElement('td');
 	new_td2 = document.createElement('td');
