@@ -8,8 +8,14 @@ h1{
 }
 
 form{
-	margin-top: 40px;
-	text-align: center;
+	position: absolute;
+	margin: 15px;
+	left: 29%;	
+}
+#divdoform{
+	height: 60px;
+	position: relative;
+	background-color: #87CEFA;	
 
 }
 
@@ -34,7 +40,9 @@ table, tr, td{
 }
 
 .tr_selected{
-	background-color: red;
+  color: white;
+  cursor: pointer;
+  background-color: #FF7F50;
 }
 
 table{
@@ -68,4 +76,12 @@ table{
 	width: 100%;
 	text-align: center;
 	height:80px;
+}
+
+#rodape{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+	background-color:coral;
 }

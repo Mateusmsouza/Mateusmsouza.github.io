@@ -55,6 +55,7 @@ function remove_task(task, date_max, kind){
 		if(i > 1){
 			if (tabela_temp.childNodes[i].textContent == task+date_max){
 				tabela_temp.childNodes[i].remove()
+				currently = null
 			};
 		};
 	})
