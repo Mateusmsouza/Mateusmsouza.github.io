@@ -5,6 +5,8 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 p, h1{
   color: #FFF;
   font-family: 'Slabo 27px', serif;
@@ -18,6 +20,13 @@ h1{
 }
 
 /* CSS da barra do topo */
+ul{
+  display: inline-flex;
+}
+
+li{
+  margin-left: 10px;
+}
 .up{
   display: flex;
   width: 100%;
@@ -97,14 +106,22 @@ a{
   column-count: 3;
   column-gap: 0px;
 }
-
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 .container_img img{
   width: 100%;
 }
-
-.container_img img:hover{
-  opacity: 0.5;
+.container_img img:hover .overlay{
+  opacity: 1;
 }
+
+
 
 
 .downBar{
