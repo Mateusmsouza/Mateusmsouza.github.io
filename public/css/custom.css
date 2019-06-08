@@ -1,0 +1,12 @@
+.acustom{
+color:white;
+font-weight: bold;
+}
+
+.acustom:hover {
+color: white;
+font-weight: bold;
+text-decoration: bottom;
+}
+p {line-height: 120%; }
+body {  min-width:600px; }
