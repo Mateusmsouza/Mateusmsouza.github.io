@@ -3,80 +3,63 @@
 
 <head>
 	<title>Mateus Machado - Site Pessoal</title>
-	<link rel="stylesheet" type="text/css" href="public/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	
-
-	<script type="text/javascript" href="public/js/jquery-3.4.0.min.js">
-
-	</script>
-	<script type="text/javascript" src='public/js/bootstrap.bundle.min.js'>
-
-	</script>
+  <link rel="stylesheet" type="text/css" href="public/css/reset.css">
   <link rel="stylesheet" type="text/css" href="public/css/custom.css">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Source+Code+Pro&display=swap" rel="stylesheet"> 
 </head>
 
-<body>
-	<main role="main">
-		<nav class="navbar sticky-top navbar-expand-lg navbar-light " style="background-color: black">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a href="/index.html" class="nav-link text-light px-5">Hello World</a></li>
-				<li class="nav-item active"><a href="#" class="nav-link text-light px-5">Projetos</a></li>
-				<li class="nav-item active"><a href="#" class="nav-link text-light px-5">Material de Estudo</a></li>
+<body class="app">
 
-
+		<nav class="navbar">
+			<ul class="navbar__list">
+				<li ><a class="navbar__list__item" href="/index.html">Hello World!</a></li>
+				<li ><a class="navbar__list__item" href="#" >Projetos</a></li>
+				<li ><a class="navbar__list__item" href="#" >Contato</a></li>
 			</ul>
 
-			<ul>
-          <li class=" nav-item active "> <a href="http://github.com/mateusmsouza " class="nav-link "><img src="img/GitHub-Mark-Light-32px.png "> </a></li>
-        </ul>
+			<ul class="navbar__icons">
+          <li > 
+            <a href="http://github.com/mateusmsouza" target="_blank" class="nav-link "> <img class="navbar__icon" src="img/GitHub-Mark-Light-32px.png "> </a>
+          </li>
 
-      </nav>
+          <li > 
+            <a href="https://www.linkedin.com/in/mateus-msouza/" target="_blank" class="nav-link "> <img class="navbar__icon" src="https://img.icons8.com/office/32/000000/linkedin.png"> </a>
+          </li>
+      </ul>
 
-    <section class="pt-4">
-      <div class="content">
-        <h1 class="h1-responsive font-weight-bold text-center ">printf("Olar");</h1>
+    </nav>
 
-        <p class="lead grey-text text-center w-responsive mx-auto mb-5">Me chamo Mateus Machado, trabalho atualmente como Software Tester, graduando em Tecnologia de Banco de Dados. Desenvolvo para projetos pessoais no tempo livre e no tempo mais livre toco violão e faço outras coisas de humano :)</p>
+    <section class="helloworld">
+      <div class="helloworld__content">
+        <h1 class="helloworld__content__title">printf("Olar");</h1>
+        <p>Me chamo Mateus Machado, sou Software Tester, Software Developer, Team Fortress player e aspirante à violonista.</p>
+      </div> 
+    </section>
 
-        <div class="container-fluid px-5 py-5 " style="background-color:grey ";>
-         <div class="row container-fluid">
-			  	  <div class="col-5">
-					    <img class="img-fluid img-thumbnail" src="img/magogenteboa.jpg">
-            </div>
+    <section class="aboutme">
+      <div class="aboutme__photo">
+        <img class="aboutme__photo__me" src="img/magogenteboa.jpg">
+      </div>
 
-            <div class="col-7 container-fluid">
-              <ul>
-                <li style="background-color:rgba(0,0,0,.3)" class="px-3 py-3 my-1">
-                  <img class="img-fluid" src="img/baseline_school2.png">
-                   <p class="text-light">Técnico em Redes de Computadores pela 
-                     <a href="http://etecjbento.com.br/web/" class="acustom">Etec Cônego José Bento</a> 
-                    </p>
-                  <small class="text-light font-italic">Período: 2016 - 2017</small>
-               
-                <li style="background-color:rgba(0,0,0,.3)" class="px-3 py-3 my-1">
-                  <img class="img-fluid" src="img/baseline_school2.png">
-                  <p class="text-light">Graduando em Tecnologia de Banco de Dados pela <a  href="http://fatecsjc-prd.azurewebsites.net/" class="acustom">Fatec São José dos Campos</a> </p>
-                  <small class="text-light font-italic">Período: 2018 - Atualmente</small>
-                </li> 
-                
+      <div class="aboutme_textcontent">
+        
+        <div class="aboutme_textcontent__details">
+          <img src="img/baseline_school2.png" class="aboutme_textcontent__icon"><p> Graduando em Tecnologia de Banco de Dados pela <a href="https://fatecsjc-prd.azurewebsites.net/" target="_blank">Fatec São José dos Campos</a></p>
+        </div>
 
-                <li style="background-color:rgba(0,0,0,.3)" class="px-3 py-3 my-1">
-                  <img class="img-fluid" src="img/baseline_work2.png"> 
-                  <p class="text-light">Tester de Software na 
-                    <a href="https://www.demaria.com.br/site/" class="acustom">DeMaria</a>
-                  </p>
-                  <small class="text-light font-italic" >Período: 2017 - Atualmente</small>
-                </li>
-              </ul>
+        <div class="aboutme_textcontent__details">
+          <img src="img/baseline_school2.png" class="aboutme_textcontent__icon"><p>Técnico em Redes de Computadores pela <a href="http://etecjbento.com.br/web/" target="_blank">Etec Cônego José Bento</a></p>
+        </div>
 
-            </div>
-          </div>
+        <div class="aboutme_textcontent__details">
+          <img src="img/baseline_work2.png" class="aboutme_textcontent__icon"><p> Software Tester na <a href="https://www.demaria.com.br/site/" target="_blank">DeMaria</a></p>
         </div>
       </div>
-      
+
     </section>
-    </main>
+
+    <!--<div>Icons made by <a href="https://www.freepik.com/?__hstc=57440181.0505b3000a2c3f8ea5fbefbcbb6e7a67.1563550204798.1563550204798.1563550204798.1&__hssc=57440181.2.1563550204798&__hsfp=2589290948" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"                 title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>-->
   </body>
 </html>
