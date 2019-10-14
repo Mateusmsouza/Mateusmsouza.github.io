@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+mateusmsouza.io/node_modules
+mateusmsouza.io/.pnp
+mateusmsouza.io/.pnp.js
+
+# testing
+mateusmsouza.io/coverage
+
+# production
+mateusmsouza.io/build
+
+# misc
+mateusmsouza.io/.DS_Store
+mateusmsouza.io/.env.local
+mateusmsouza.io/.env.development.local
+mateusmsouza.io/.env.test.local
+mateusmsouza.io/.env.production.local
+
+mateusmsouza.io/npm-debug.log*
+mateusmsouza.io/yarn-debug.log*
+mateusmsouza.io/yarn-error.log*
