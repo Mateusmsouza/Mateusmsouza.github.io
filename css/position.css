@@ -1,0 +1,31 @@
+.app{
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    display: grid;
+    grid-template-areas: 
+        "hello-world"
+        "about"
+        "my-work";
+}
+
+@media(max-width:720px){
+    .app{
+        grid-template-columns: 100%;
+        grid-template-rows: 33.33% 33.33% 33.33%;
+    }
+}
+
+.hello-world{
+    grid-area: hello-world;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    grid-area: about;
+}
+
+.my-work{
+    grid-area: my-work;
+}
