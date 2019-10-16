@@ -3,6 +3,36 @@
 }
 
 .hello-world__board{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: #ffffff;
-    padding: 42px 128px;
+    border-radius: 2%;
+    padding: 8px 28%;
+}
+
+.hello-world__board h2{
+    padding-top: 16px;
+    padding-bottom: 8px;
+    color: #8AAAE5;
+}
+
+.hello-world__img{
+    min-height: 24px;
+    max-height: 176px;
+    border-radius: 50%;
+}
+
+.hello-world__wrapper_icon{
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hello-world__icon{
+    justify-content: space-around;
+    max-width: 25px;
+    max-height: 25px;
+    padding: 2px
 }
