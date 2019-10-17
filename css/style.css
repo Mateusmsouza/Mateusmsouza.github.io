@@ -2,19 +2,33 @@
     background-color: #8AAAE5;
 }
 
+.blue__text{
+    color: #8aaae5;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.white__text{
+    color: #ffffff;
+}
+
+.text_dev{
+    color: #dbdee2;
+    padding-bottom: 8px;
+}
+
 .hello-world__board{
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 2%;
-    padding: 8px 28%;
+    padding: 15% 25%;
 }
 
 .hello-world__board h2{
-    padding-top: 16px;
-    padding-bottom: 8px;
     color: #8AAAE5;
+    padding: 16px 0px;
 }
 
 .hello-world__img{
@@ -24,7 +38,6 @@
 }
 
 .hello-world__wrapper_icon{
-    padding-top: 8px;
     display: flex;
     align-items: center;
     
@@ -34,5 +47,12 @@
     justify-content: space-around;
     max-width: 25px;
     max-height: 25px;
-    padding: 2px
+    padding: 0px 2px;
+}
+
+.about__wrapper__school{
+    background-color: #ffffff;
+    padding: 8px 16px;
+    margin: 16px 16px;
+    border-radius: 2%
 }

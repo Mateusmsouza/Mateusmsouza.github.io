@@ -1,5 +1,4 @@
 .app{
-    height: 100vh;
     font-family: 'Comfortaa', cursive;
     display: grid;
     grid-template-areas: 
@@ -11,12 +10,13 @@
 @media(max-width:720px){
     .app{
         grid-template-columns: 100%;
-        grid-template-rows: 33.33% 33.33% 33.33%;
+        grid-template-rows: 3fr 3fr 3fr;
     }
 }
 
 .hello-world{
     grid-area: hello-world;
+    grid-row: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,19 @@
 
 .about{
     grid-area: about;
+    grid-row: 2/2;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width: 720px){
+    .about__wrapper{
+        border-left: 8px solid #ffffff;
+        margin: 8px 16px;
+        padding: 8px 16px;
+        width: 100%;
+    }
 }
 
 .my-work{
