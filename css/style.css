@@ -4,7 +4,6 @@
 
 .blue__text{
     color: #8aaae5;
-    font-weight: bold;
     padding-bottom: 8px;
 }
 
@@ -13,8 +12,13 @@
 }
 
 .text_dev{
-    color: #dbdee2;
+    color: #a6a8ab;
     padding-bottom: 8px;
+}
+
+.text_year{
+    color: #a6a8ab;
+    padding-top: 4px;
 }
 
 .hello-world__board{
@@ -22,6 +26,7 @@
     align-items: center;
     flex-direction: column;
     background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 2%;
     padding: 3% 25%;
 }
@@ -52,7 +57,21 @@
 
 .about__wrapper__school{
     background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
     padding: 8px 16px;
     margin: 16px 0px;
-    border-radius: 2%
+}
+
+.my-work__board{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+}
+
+.my-work__board_seemore{
+    background-color: #8AAAE5;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border-radius: 12px;
 }
